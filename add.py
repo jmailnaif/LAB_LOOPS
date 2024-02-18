@@ -1,8 +1,7 @@
 #2
-asl_1:str = input("what is the product of 7 * 24 ? ")
-if asl_1== "168":
+answer = 7*24
+user_answer = int(input("what is the product of 7 * 24 ? "))
+if user_answer== answer:
      print("you answered this question correctly")
-     break
 else:
     print("your answer is wrong Try again")
-    
